@@ -8,8 +8,9 @@
 
     <TextView
         android:id="@+id/textView"
+        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -21,8 +22,9 @@
 
     <TextView
         android:id="@+id/textView2"
+        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -34,8 +36,9 @@
 
     <TextView
         android:id="@+id/textView3"
+        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -48,6 +51,7 @@
 
     <Button
         android:id="@+id/button"
+        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="299dp"
@@ -60,11 +64,13 @@
 
     <TextView
         android:id="@+id/textView5"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
+        android:background="#DA6996"
         android:text="@string/blankBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
